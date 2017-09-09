@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "gulp",
-    "dev": "gulp watch"
+    "dev": "gulp watch",
+    "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,7 @@
     "gulp-htmlmin": "^3.0.0",
     "gulp-uglify": "^3.0.0",
     "gulp-uglifycss": "^1.0.8",
-    "gulp-watch": "^4.3.11"
+    "gulp-watch": "^4.3.11",
+    "jest": "^21.0.2"
   }
 }

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1504986879452" clover="3.2.0">
+  <project timestamp="1504986879452" name="All files">
+    <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2" elements="7" coveredelements="7" complexity="0" loc="5" ncloc="5" packages="1" files="1" classes="1">
+      <file name="soma.js" path="/home/web6951/Desktop/cep-request/src/soma.js">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="5" count="6" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+      </file>
+    </metrics>
+  </project>
+</coverage>
