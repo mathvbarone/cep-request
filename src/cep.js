@@ -33,8 +33,8 @@ const getAddressSuccess = address => {
   })
 }
 
-const getAddressError = function(){
-  console.log("O servidor retornou com um erro");
+const getAddressError = () =>{
+  console.log("O servidor retornou com um erro!");
 }
   //MAPEANDO EVENTOS
   $("#cep")
