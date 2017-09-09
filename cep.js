@@ -27,8 +27,11 @@ $(document).ready(()=>{
       }
   }
 
-const getAddressSuccess = function(address){
-  console.log("Sucesso");
+const getAddressSuccess = address => {
+  $.each(address, (key, value)=>{
+    console.log(key);
+    $(`#${key}`).val(value);
+  })
 }
 
 const getAddressError = function(){
