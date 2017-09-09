@@ -29,7 +29,6 @@ $(document).ready(()=>{
 
 const getAddressSuccess = address => {
   $.each(address, (key, value)=>{
-    console.log(key);
     $(`#${key}`).val(value);
   })
 }
@@ -41,5 +40,4 @@ const getAddressError = function(){
   $("#cep")
     .on("input", validateEntry)
     .on("focusout", validateLength);
-
 });
